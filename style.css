@@ -1,0 +1,528 @@
+/* Nav Head Start */
+/* Nav Head Start */
+/* Nav Head Start */
+/* Nav Head Start */
+/* Nav Head Start */
+
+body{
+    margin:0px;
+    width:100%;
+    height:100%;
+    background-color: white;
+    background-image: url(leaves.webp);
+    
+   
+}
+
+#menu a{
+    color: rgb(47, 9, 173);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#menu a:hover{
+    color: rgb(173, 9, 9);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 16px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+}
+#upmenu{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding:8px 0px;
+    background-color: rgba(255, 255, 255, 0.233);
+
+}
+
+#upmenu img{
+    margin: 8px 64px;
+}
+
+/* Nav Head End */
+/* Nav Head End */
+/* Nav Head End */
+/* Nav Head End */
+/* Nav Head End */
+
+/* Hero Hello Start */
+/* Hero Hello Start */
+/* Hero Hello Start */
+/* Hero Hello Start */
+/* Hero Hello Start */
+
+#hero-hello{
+    
+    background-color: rgb(58, 33, 93);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.561),rgba(255, 0, 0, 0.288),rgba(255, 0, 0, 0.288),rgba(255, 0, 0, 0.145),rgba(255, 0, 0, 0));
+    margin-top: 48px;
+    margin-left: 64px;
+    margin-right: 64px;
+    padding:25px 100px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+
+}
+
+
+
+#wlc-to-website{
+    color:rgb(38, 33, 61);
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    
+
+}
+
+#wlc-to-nowbig{
+    color:rgb(69, 60, 111);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 100px 0px 156px 0px;
+}
+
+/* Hero Hello End */
+/* Hero Hello End */
+/* Hero Hello End */
+/* Hero Hello End */
+/* Hero Hello End */
+
+/* Foot Nav Start */
+/* Foot Nav Start */
+/* Foot Nav Start */
+/* Foot Nav Start */
+/* Foot Nav Start */
+
+#down-footer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    padding:16px 0px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+#foot-menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    padding:0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#foot-menu a{
+    color: rgb(47, 9, 173);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#foot-menu a:hover{
+    color: rgb(173, 9, 9);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#foot-social{
+    display: flex;
+
+    margin:0px 24px;
+}
+
+#down-footer p{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 24px;
+    padding:0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* About me page Start */
+
+blockquote{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#single-qoute img{
+    margin: 0px;
+    padding: 0px;
+}
+
+#single-qoute{
+    text-align: center;
+    margin: 32px 0px 100px 0px;
+    transition: all 2s;
+}
+
+#about-me-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#about-me-text{
+    width: 650px;
+    display: inline-block;
+    margin: 0px 0px 0px 64px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#about-me-text p{
+    padding-bottom: 32px;
+    padding-right: 20px;
+    color: rgb(15, 5, 43);
+}
+
+#about-me-image{
+    margin: 20px 64px 0 64px;
+}
+
+#about-me-book-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: nowrap;
+}
+
+#book-image-row-1{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#book-image-row-2{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#book-image-row-3{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#library-button{
+    text-align: center;
+}
+
+
+
+#library-button button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-color: rgb(4, 4, 13);
+    color:rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252); 
+    font-size: 16px;
+    font-weight: bold;
+    transition: border-radius 1s;
+}
+
+#library-button button:hover{
+    padding: 8px 16px;
+    border-radius: 20px;
+    border-color: rgb(1, 1, 8);
+    color:rgb(0, 0, 0);
+    
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* About me page End */
+
+
+
+
+/* Contact me page start */
+
+#contact-main-div{
+    display:flex;
+    justify-content:center;
+    align-items: start;
+}
+
+#contact-email,#contact-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+}
+
+#contact-email div{
+    
+    min-width: 100px;
+}
+
+
+
+#contact-email{
+    border-right: 2px solid black;    
+}
+
+#email-head,#social-head{
+    display: inline-block;
+    background-color: rgb(58, 33, 93);
+    margin-top: 48px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 20px;
+    padding:8px 220px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    
+}
+
+#contact-social-main{
+    text-align: center;
+}
+
+.contact-social-link{
+    display: inline-block;
+    width: 156px;
+    padding: 8px 16px;
+    margin: 0px 24px 64px 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    color: black;
+    transition: all 1s;
+}
+.contact-social-link:active{
+    display: inline-block;
+    width: 156px;
+    padding: 8px 16px;
+    margin: 0px 24px 64px 24px;
+    border: 2px solid rgb(36, 29, 29);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    background-color: antiquewhite;
+    color: rgb(14, 14, 2);
+
+}
+.contact-social-link:hover{
+    display: inline-block;
+    width: 156px;
+    padding: 8px 16px;
+    margin: 0px 24px 64px 24px;
+    border: 2px solid black;
+    border-radius: 16px;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(101, 71, 176);
+    color: rgb(255, 255, 255);
+}
+
+
+
+label{
+    display: block;
+    margin-left: 64px;
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+#name,#email{
+    width: 72%;
+    padding: 8px 16px;
+    background-color:white;
+    color: black;
+    margin: 8px 0px 0px 64px;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+
+#msg{
+    width:72%;
+    height: 156px;
+    padding: 8px 16px;
+    background-color:white;
+    color: black;
+    margin: 8px 0px 0px 64px;
+    border: 2px black solid;
+    border-radius: 8px;
+    resize: none;
+}
+    
+
+
+
+#contact-button{
+    width: 78%;
+    padding: 8px 16px;
+    background-color:rgb(20, 24, 142);
+    color: rgb(255, 255, 255);
+    margin: 20px 0px 20px 64px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+#contact-button:hover{
+    width: 78%;
+    padding: 8px 16px;
+    background-color:rgba(175, 13, 13, 0.829);
+    color: rgb(255, 255, 255);
+    margin: 20px 0px 20px 64px;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+
+
+/* contact me page ends */
+/* contact me page ends */
+/* contact me page ends */
+/* contact me page ends */
+/* contact me page ends */
+
+
+/* Journal page Start */
+/* Journal page Start */
+/* Journal page Start */
+/* Journal page Start */
+
+
+
+#journal-access-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#journal-label{
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#journal-passcode{
+    width: 524px;
+    margin-top: 16px;
+    height: 32px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: rgb(220, 220, 220);
+}
+
+#journal-passcode:focus{
+    width: 524px;
+    margin-top: 16px;
+    height: 32px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+#journal-button{
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px 32px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+#journal-button:hover{
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: rgba(248, 251, 234, 0.76);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Journal page End */
+/* Journal page End */
+/* Journal page End */
+/* Journal page End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
